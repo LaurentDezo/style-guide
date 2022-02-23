@@ -1,0 +1,25 @@
+.colors {
+    height: 100px;
+    width: 75px;
+    display: inline-block;
+}
+
+.rose {
+    background-color: #fd2184;
+}
+
+.honey-yellow {
+    background-color: #f6ae2d;
+}
+
+.cerulean-crayola {
+    background-color: #31afd4;
+}
+
+.onyx {
+    background-color: #36393b;
+}
+
+.orange-red {
+    background-color: #f26419;
+}
