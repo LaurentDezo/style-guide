@@ -1,7 +1,69 @@
-.colors {
-    height: 100px;
-    width: 75px;
+/* General*/
+h1 {
+    text-align: left;
+    font-size: 60px;
+    margin-left: 40px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'libre baskerville';
+    font-style: italic;
+}
+
+* {
+    text-align: center;
+    color: #337ca0;
+}
+
+.main-section {
+    height: 100vh;
+}
+
+html {
+    background-color: beige;
+}
+
+code {
+    font-family: 'space mono';
+    display: block;
+    text-align: left;
+    font-size: 13px;
+}
+
+p {
+    font-size: 17px;
+}
+
+/* colors */
+.color-section {
     display: inline-block;
+    width: 300px;
+    margin: 0 40px;
+}
+
+.color-section h3 {
+    text-align: center;
+}
+.colors {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    border-radius: 100px;
+}
+
+.colors code {
+    text-align: center;
+    line-height: 150px;
+    color: beige;
+    font-size: 18px;
 }
 
 .rose {
@@ -23,3 +85,38 @@
 .orange-red {
     background-color: #f26419;
 }
+
+/* Fonts */
+
+.roboto {
+    font-family: roboto;
+}
+
+.space-mono {
+    font-family: 'space mono'
+}
+
+.libre-baskerville {
+    font-family: 'libre baskerville';
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.font {
+    display: inline-block;
+    margin: 50px;
+}
+
+/* Recommendations */
+
+.recom {
+    display: inline-block;
+    margin: 50px 80px;
+}
+
